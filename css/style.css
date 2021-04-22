@@ -22,5 +22,53 @@
 header{
     height: 150px;
     background: #e579e6;
-    margin:15px 0 15px;
+    margin:30px 0 30px;
+}
+
+.main-img{
+    height: 500px;
+    background: #e1d67a;
+    margin-bottom: 30px;
+}
+
+.article-conteiner{
+    background: #0086ff;
+    margin-bottom: 15px;
+
+}
+
+.article-conteiner > div, .article-header{
+    background: #abcfe7;
+    height: 800px;
+}
+
+.article-header{
+    height: 75px;
+}
+
+.side-article1{
+    width: calc(25% - 10px);
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-article{
+    width: calc(50% - 20px);
+    margin:0 10px 0 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.side-article2{
+    width: calc(25% - 10px);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+
+}
+
+footer{
+    background: #8801fe;
+    height: 50px;
 }
