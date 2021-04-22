@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl{
+    float: left;
+}
+
+.conteiner{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+header{
+    height: 150px;
+    background: #e579e6;
+    margin:15px 0 15px;
+}
