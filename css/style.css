@@ -34,16 +34,17 @@ header{
 .article-conteiner{
     background: #0086ff;
     margin-bottom: 15px;
-    height: 800px;
 }
 
-.article-conteiner > div, .article-header{
+.article-conteiner > div{
     background: #abcfe7;
-
+    height: 800px;
 }
 
 .article-header{
     height: 75px;
+    background: #abcfe7;
+
 }
 
 .side-article1{
